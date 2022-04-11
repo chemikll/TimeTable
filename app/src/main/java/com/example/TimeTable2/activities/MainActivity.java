@@ -283,7 +283,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     private void deleteAccount(String password){
-        loadingMsg.setText("Đang xóa...");
+        loadingMsg.setText("deletinggg......");
         relativeLayout.setVisibility(View.VISIBLE);
         AuthCredential credential = EmailAuthProvider.getCredential(user.getEmail(), password);
         mAuth.getCurrentUser().reauthenticate(credential).addOnCompleteListener(new OnCompleteListener<Void>() {
