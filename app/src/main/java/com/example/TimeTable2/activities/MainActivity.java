@@ -285,10 +285,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 
     private void deleteAccount(String password){
+<<<<<<< HEAD
         loadingMsg.setText("Deleteddd");
         
 
 relativeLayout.setVisibility(View.VISIBLE);
+=======
+        loadingMsg.setText("Đang xóa...");
+        relativeLayout.setVisibility(View.VISIBLE);
+>>>>>>> parent of 2bdf1cf (chuyen dang xoa thanh deleteddddd)
         AuthCredential credential = EmailAuthProvider.getCredential(user.getEmail(), password);
         mAuth.getCurrentUser().reauthenticate(credential).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
