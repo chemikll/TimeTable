@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/select_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/white"
+            android:text="@string/select_color"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <ImageButton
+            android:id="@+id/btn_next"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/select_color"
+            android:src="@drawable/ic_arrow_forward"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/dialog_btn_next"
+            android:layout_alignParentRight="true" />
+
+        <ImageButton
+            android:id="@+id/btn_previous"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/select_color"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/dialog_btn_previous"
+            android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

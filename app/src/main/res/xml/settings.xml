@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="sevendays"
+        android:icon="@drawable/baseline_view_week_black_18"
+        android:title="7 ngày trong tuần"
+        android:summary="Mở 7 ngày trong tuần" />
+    <EditTextPreference
+        android:key="schoolwebsite"
+        android:selectAllOnFocus="true"
+        android:icon="@drawable/baseline_open_in_browser_black_18"
+        android:singleLine="true"
+        android:title="Website trường"
+        android:summary="Thay đổi địa chỉ Website trường"/>
+</PreferenceScreen>

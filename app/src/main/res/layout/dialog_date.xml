@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+
+    <EditText
+        android:id="@+id/btnpickdate"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center_horizontal"
+        android:text="Chọn ngày"
+        android:textAlignment="center">
+
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/btn_next"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btnpickdate"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/dialog_btn_next"
+        android:src="@drawable/ic_check_circle" />
+
+    <ImageButton
+        android:id="@+id/btn_previous"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btnpickdate"
+        android:src="@drawable/ic_cancel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/dialog_btn_previous"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/cancelAlarm"
+        android:title="Tắt chuông"/>
+
+    <item
+        android:id="@+id/resetPassword"
+        android:title="Đặt lại mật khẩu"/>
+
+    <item
+        android:id="@+id/deleteAccount"
+        android:title="Xóa tài khoản"/>
+
+    <item
+        android:id="@+id/signOut"
+        android:title="Đăng xuất" />
+
+
+</menu>

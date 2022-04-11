@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "262853464833",
+    "firebase_url": "https://timetable-2e072-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "timetable-2e072",
+    "storage_bucket": "timetable-2e072.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262853464833:android:a2b3b1cde738460da78100",
+        "android_client_info": {
+          "package_name": "com.example.baitap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262853464833-bb1pobok6gs79msq7rflajobedbujogr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.baitap",
+            "certificate_hash": "6fbc4225ac2f4813c2f8bd9b2291861fc0502622"
+          }
+        },
+        {
+          "client_id": "262853464833-lu8jj2si9sq9jdakqknp7a9cvu2vllnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuDdUXMEa-b11I41AsExkXwy4W8_lTjbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262853464833-lu8jj2si9sq9jdakqknp7a9cvu2vllnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

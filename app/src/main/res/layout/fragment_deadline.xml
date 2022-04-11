@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/mSwipeRefreshLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mRecyclerView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    <com.leinardi.android.speeddial.SpeedDialView
+        android:id="@+id/mSpeedDialView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:sdMainFabClosedSrc="@drawable/ic_add">
+
+    </com.leinardi.android.speeddial.SpeedDialView>
+
+    <TextView
+        android:id="@+id/tv_emptyText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh sách trống"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal" />
+
+</RelativeLayout>
