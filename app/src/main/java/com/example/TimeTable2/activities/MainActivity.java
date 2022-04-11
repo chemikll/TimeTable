@@ -377,7 +377,7 @@ relativeLayout.setVisibility(View.VISIBLE);
     }
 
     private void resetPassword(final String passwordNew, String passwordOld){
-        loadingMsg.setText("Updating...");
+        loadingMsg.setText("Đang cập nhật...");
         relativeLayout.setVisibility(View.VISIBLE);
 
         AuthCredential credential = EmailAuthProvider.getCredential(user.getEmail(), passwordOld);
