@@ -368,7 +368,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     private void resetPassword(final String passwordNew, String passwordOld){
-        loadingMsg.setText("Đang cập nhật...");
+        loadingMsg.setText("Updating...");
         relativeLayout.setVisibility(View.VISIBLE);
 
         AuthCredential credential = EmailAuthProvider.getCredential(user.getEmail(), passwordOld);
